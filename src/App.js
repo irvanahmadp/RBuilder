@@ -1,25 +1,30 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Route } from "react-router-dom";
+
+import 'bulma/css/bulma.min.css';
+import './assets/css/app.css';
+
+import HomePage from './pages/HomePage';
+import NewsPage from './pages/NewsPage';
+import AboutPage from './pages/AboutPage';
+import ContactPage from './pages/ContactPage'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <Route exact path="/" render={props =>(
+          <HomePage data={{pageActive : 'homePage'}} />
+        )} />
+        <Route path="/news" render={props =>(
+          <NewsPage data={{pageActive : 'newsPage'}} />
+        )} />
+        <Route path="/about-us" render={props =>(
+          <AboutPage data={{pageActive: 'aboutPage'}} />
+        )} />
+        <Route path="/contact-us" render={props=>(
+          <ContactPage data={{pageActive: 'contactPage'}} />
+        )} />
       </div>
     );
   }

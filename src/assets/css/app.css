@@ -1,0 +1,142 @@
+.color-white{
+  color: #fff;
+}
+.navbar, .navbar-menu{
+  background: #2e2e2e;
+  font-family: Roboto,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+.navbar-brand > .navbar-item.subtitle.is-4{
+  font-weight: bold;
+  transition: color 1.5s;
+  margin: 0px;
+  color: #fff;
+}
+.navbar-brand > .navbar-item:hover{
+  color: #eee
+}
+.navbar-burger{
+  color:#fff
+}
+.navbar-item{
+  color: #fff;
+  min-width: 125px;
+  justify-content:center;
+  font-weight: bold;
+}
+.navbar-item.is-active,
+.navbar-link:hover, a.navbar-item.is-active, a.navbar-item:hover,
+.navbar-link.is-active:not(:hover), a.navbar-item.is-active:not(:hover){
+  color: #000;
+  background: #faaa1d;
+}
+.content-full{
+  min-height: 100vh;
+}
+.content-title{
+  background: #f2f2f2;
+  margin-bottom: 25px;
+  text-align: center;
+}
+/*HomePage*/
+.content-home-1{
+  background: #f2f2f2;
+  color: #fff;
+  min-height:calc(100vh - 52px);
+}
+.content-home-1 > .hero-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content-home-1 .message{
+  margin: 15px;
+  padding: 15px;
+  color: #000;
+}
+.content-home-1 .is-4{
+  color: #000;
+}
+.content-home-1 .is-4.color-white{
+  color: #fff;
+}
+.content-testimonials{
+  background: #f2f2f2;
+}
+/*HomePage END*/
+/*NewsPage*/
+.news-container{
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+/*NewsPage END*/
+/*ContactPage*/
+.contact-detail{
+  background: #2e2e2e;
+  padding: 25px;
+  color: #fafafa;
+  border-radius: 5px;
+  height: 100%;
+}
+.contact-detail strong{
+  color: #fff;
+}
+.form-contact .input, .form-contact .textarea{
+  box-shadow: unset;
+}
+.form-contact .button{
+  font-weight: bold;
+}
+.field-input:not(:last-child){
+  margin-bottom:20px;
+}
+.field-input .input{
+  height: unset;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+/*ContactPage End*/
+.footer, .footer strong{
+  background: #2e2e2e;
+  color:#A3A3A3;
+}
+.footer .title{
+  color: #fff;
+  text-transform: uppercase;
+}
+.footer .content ul{
+  margin-left: 1em;
+}
+.footer .button{
+  font-weight: bold;
+}
+@media (max-width: 575.98px) {
+/* Extra small devices (portrait phones, less than 576px) */
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+/* Small devices (landscape phones, 576px and up) */
+  /* .content-list-project .column{
+    height: 120px;
+    overflow: hidden;
+  } */
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+/* Medium devices (tablets, 768px and up) */
+  /* .content-list-project .column{
+    height: 185px;
+    overflow: hidden;
+  } */
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/* Large devices (desktops, 992px and up) */
+  /* .content-list-project .column{
+    height: 165px;
+    overflow: hidden;
+  } */
+}
+@media (min-width: 1200px) {
+/* Extra large devices (large desktops, 1200px and up) */
+  /* .content-list-project .column{
+    height: 215px;
+    overflow: hidden;
+  } */
+}
