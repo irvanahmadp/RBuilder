@@ -15,7 +15,7 @@ class AboutPage extends Component{
         </div>
         <Footer/>
       </div>
-  	);
+    );
   }
 }
 
