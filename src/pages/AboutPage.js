@@ -6,15 +6,15 @@ import Footer from './../components/Footer';
 class AboutPage extends Component{
   render(){
   	return(
-			<div className="AppWrapper">
-				<Header pageActive="aboutPage"/>
-				<div className="hero content-title">
-          <div className="hero-body">
-            <h1 className="title is-2">About US</h1>
-          </div>
+    <div className="AppWrapper">
+      <Header pageActive="aboutPage"/>
+      <div className="hero content-title">
+        <div className="hero-body">
+          <h1 className="title is-2">About US</h1>
         </div>
-				<Footer/>
-			</div>
+      </div>
+      <Footer/>
+    </div>
   	);
   }
 }
