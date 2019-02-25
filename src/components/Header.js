@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 
 class Header extends Component{
   constructor(props) {
@@ -50,18 +51,18 @@ class Header extends Component{
           <div id="navMenu" 
           className={this.state.menuActiveClass}>
             <div className="navbar-end">
-              <a className={this.getClassMenu('homePage')} href="/">
+              <Link className={this.getClassMenu('homePage')} to="/">
                 Home
-              </a>
-              <a className={this.getClassMenu('newsPage')} href="/news">
+              </Link>
+              <Link className={this.getClassMenu('newsPage')} to="/news">
                 News
-              </a>
-              <a className={this.getClassMenu('aboutPage')} href="/about-us">
-                About US
-              </a>
-              <a className={this.getClassMenu('contactPage')} href="/contact-us">
+              </Link>
+              <Link className={this.getClassMenu('aboutPage')} to="/about-us">
                 Contact US
-              </a>
+              </Link>
+              <Link className={this.getClassMenu('contactPage')} to="/contact-us">
+                Contact US
+              </Link>
             </div>
           </div>
         </div>
