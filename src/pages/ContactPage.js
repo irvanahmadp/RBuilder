@@ -4,6 +4,9 @@ import Header from './../components/Header';
 import Footer from './../components/Footer';
 
 class ContactPage extends Component{
+  componentDidMount(){
+    document.title = 'Contact';
+  }
   render(){
     return(
       <div className="AppWrapper">

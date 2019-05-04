@@ -4,6 +4,9 @@ import Header from './../components/Header';
 import Footer from './../components/Footer';
 
 class AboutPage extends Component{
+  componentDidMount(){
+    document.title = 'About';
+  }
   render(){
     return(
       <div className="AppWrapper">
