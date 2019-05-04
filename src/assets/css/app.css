@@ -68,6 +68,10 @@
   padding-top: 35px;
   padding-bottom: 35px;
 }
+.news-list-content-img{
+  border-radius: 5px;
+  border: 3px solid #f2f2f2;
+}
 /*NewsPage END*/
 /*ContactPage*/
 .contact-detail{

@@ -16,6 +16,13 @@ class AboutPage extends Component{
             <h1 className="title is-2">About US</h1>
           </div>
         </div>
+        <div className="hero">
+          <div className="hero-body">
+            <div className="container">
+
+            </div>
+          </div>
+        </div>
         <Footer/>
       </div>
     );

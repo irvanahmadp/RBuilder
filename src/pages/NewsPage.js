@@ -24,12 +24,12 @@ class NewsPage extends Component{
               <div className="columns is-multiline">
                 <div className="column is-4">
                   <figure className="image is-is3by3">
-                    <img src={NewsDataRow.image} alt={NewsDataRow.title}/>
+                    <img className="news-list-content-img" src={NewsDataRow.image} alt={NewsDataRow.title}/>
                   </figure>
                 </div>
                 <div className="column is-8">
                   <div className="content">
-                    <h3 className="subtitle is-3">{NewsDataRow.title}</h3>
+                    <h4 className="subtitle is-5">{NewsDataRow.title}</h4>
                     <p>{NewsDataRow.content}</p>
                   </div>
                 </div>
