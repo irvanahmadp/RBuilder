@@ -1,3 +1,8 @@
+# RBuilder
+
+### Screenshot
+![Screenshot RBuilder](https://raw.githubusercontent.com/IrvanAhmadPrasetya/RBuilder/master/images/Screenshot%20-%20RBuilder.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
