@@ -19,7 +19,7 @@ class ContactPage extends Component{
         <div className="hero">
           <div className="hero-body">
             <div className="container">
-              <div className="columns is-multiline">
+              <div className="columns is-multiline is-centered">
                 <div className="column is-4">
                   <div className="content contact-detail">
                     <p>
@@ -32,7 +32,6 @@ class ContactPage extends Component{
                     </p>
                   </div>
                 </div>
-                <div className="column is-1"></div>
                 <div className="column is-7">
                   <form className="form-contact">
                     <div className="columns is-multiline">
