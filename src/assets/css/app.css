@@ -1,0 +1,140 @@
+.color-white{
+  color: #fff;
+}
+.navbar, .navbar-menu{
+  background: #2e2e2e;
+  font-family: Roboto,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+.navbar-brand > .navbar-item.subtitle.is-4{
+  font-weight: bold;
+  transition: color 1.5s;
+  margin: 0px;
+  color: #fff;
+}
+.navbar-brand > .navbar-item:hover{
+  color: #eee
+}
+.navbar-burger{
+  color:#fff
+}
+.navbar-item{
+  color: #fff;
+  min-width: 125px;
+  justify-content:center;
+  font-weight: bold;
+}
+.navbar-item.is-active,
+.navbar-link:hover, a.navbar-item.is-active, a.navbar-item:hover,
+.navbar-link.is-active:not(:hover), a.navbar-item.is-active:not(:hover){
+  color: #000;
+  background: #faaa1d !important;
+}
+.content-full{
+  min-height: 100vh;
+}
+.content-title{
+  background: #f2f2f2;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+
+/*HomePage*/
+.content-home-1{
+  background: #f2f2f2;
+  color: #fff;
+  min-height:calc(100vh - 52px);
+}
+.content-home-1 > .hero-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content-home-1 .message{
+  margin: 15px;
+  padding: 15px;
+  color: #000;
+}
+.content-home-1 .is-4{
+  color: #000;
+}
+.content-home-1 .is-4.color-white{
+  color: #fff;
+}
+.content-testimonials{
+  background: #f2f2f2;
+}
+/*HomePage END*/
+
+/*NewsPage*/
+.news-container:not(:first-child){
+  margin-top: 25px;
+}
+.news-list-content-img{
+  border-radius: 5px;
+  border: 3px solid #f2f2f2;
+  object-fit: cover;
+  object-position: top;
+}
+/*NewsPage END*/
+
+/*ContactPage*/
+.contact-detail{
+  background: #2e2e2e;
+  padding: 25px;
+  color: #fafafa;
+  border-radius: 5px;
+  height: 100%;
+}
+.contact-detail strong{
+  color: #fff;
+}
+.form-contact .input, .form-contact .textarea{
+  box-shadow: unset;
+}
+.form-contact .button{
+  font-weight: bold;
+}
+.field-input:not(:last-child){
+  margin-bottom:20px;
+}
+.field-input .input{
+  height: unset;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+/*ContactPage End*/
+
+.footer, .footer strong{
+  background: #2e2e2e;
+  color:#A3A3A3;
+}
+.footer .title{
+  color: #fff;
+  text-transform: uppercase;
+}
+.footer .content ul{
+  margin-left: 1em;
+}
+.footer .button{
+  font-weight: bold;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #7A818D !important;
+  opacity: 1; /* Firefox */
+}
+
+/* https://tailwindcss.com/docs/screens */
+@media only screen and (min-width: 768px) {
+  /* Medium */
+  .news-figure {
+    padding-top: 100% !important;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  /* Large */
+  .news-figure {
+    padding-top: 50% !important;
+  }
+}
