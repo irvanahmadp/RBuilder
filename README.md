@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Screenshot
 
-![Screenshot RBuilder](https://raw.githubusercontent.com/IrvanAhmadPrasetya/RBuilder/master/images/Screenshot%20-%20RBuilder.webp)
+![Screenshot RBuilder](https://raw.githubusercontent.com/IrvanAhmadP/RBuilder/master/images/Screenshot%20-%20RBuilder.webp)
 
 ## Available Scripts
 
